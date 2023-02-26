@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>CV: Rios David</title>
+</head>
+
+<body>
+    <header>
+        <div class="row encabezado">
+            <div class="col-sm-4">
+                <ul class="foto-nombre">
+                    <li class="foto">
+                        <img src=" img/DavidRios.png" alt="Foto perfil de Rios David" class="fotoPerfil">
+                    </li>
+                    <li>
+                        <h2 onmouseover="style.color='#6a73a6'" onmouseout="style.color='white'">Rios R. David</h2>
+                    </li>
+            </div>
+            <div class="col-sm-8">
+                <h1 class="titulo" onmouseover="tituloOver(this)" onmouseout="tituloOut(this)">Front-end</h1>
+            </div>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-sm-4 left-column">
+                <h2 class="titulo-inf-per">Informacion personal</h2>
+                <ul>
+                    <li>
+                        <h3>Contactos</h3>
+                        <div id="inf-contacto" class="inf-contacto">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="icon-redes-sociales" src="img/whatsapp.png" alt="logo whatsapp">
+                                    </td>
+                                    <td>
+                                        <a class="contacto"
+                                            href="https://wa.me/543482665379?text=Hola.%20Te%20contactamos%20por%20medio%20de%20tu%20curriculumWeb">+54
+                                            (3482) 665379</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon-redes-sociales" src="img/linkedin.png" alt="logo telegram">
+                                    </td>
+                                    <td>
+                                        <a class="contacto"
+                                            href="https://www.linkedin.com/in/david-rios-399b32256">David
+                                            Rios</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img class="icon-redes-sociales" src="img/telegrama.png" alt="logo telegram">
+                                    </td>
+                                    <td>
+                                        <a href="https://t.me/RiosDavidR" class="contacto">+54 (3482) 665379</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="linea-boton">
+                                <input type="button" id="ocultar" class="btn btn-danger " value="Ocultar">
+                            </div>
+                        </div>
+                        <div class="btn-mostrar">
+                            <input type="button" id="mostrar" class="btn btn-success" value="Ver contactos">
+                        </div>
+                    </li>
+
+                    <li>
+                        <h3>Tecnologias</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>TECNOLOGIA</th>
+                                    <th>NIVEL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Java</td>
+                                    <td>Intermedio</td>
+                                </tr>
+                                <tr>
+                                    <td>MySQL</td>
+                                    <td>Intermedio</td>
+                                </tr>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>Intermedio</td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>Intermedio</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>Basico</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-8">
+                <ul>
+                    <li>
+                        <h4>Informacion academica</h4>
+                        <p>
+                            <strong> Tecnico Superior en Desarrollo de Software 2019-2021.</strong>
+                            <br>
+                            I.S.P: N°63 "Natalia Quessus" (Instituto Superior de Profesorados). Las Toscas, Santa Fé,
+                            Argentina.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Cursos</h4>
+                        <p>
+                            <strong>Primeros pasos del desarrollo frontend 12/2022-1/2023</strong>
+                            <br>
+                            Argentina programa 4.0
+                        </p>
+                        <p>
+                            <strong> Adobe Photoshop 10/2021-12/2021.</strong>
+                            <br>
+                            Escuela Superior de Comercio
+                        </p>
+                        <p>
+                            <strong>Scrum Fundamentals Certified 8/2021-10/2021.</strong>
+                            <br>
+                            SCRUMstudy in association with Soy Líder. Net
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Proyectos</h4>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <img class="icon-redes-sociales" src="img/img-github.png"
+                                        alt="Imagen de  githut logo.">
+                                </td>
+                                <td>
+                                    <a class="proyectos" href="https://github.com/Davidrubenriios"
+                                        onmouseover="style.color='blue'" onmouseout="style.color='black'">David Rios</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    <button onclick="descargarPDF()" class="btn btn-success">Descargar PDF</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="pie-de-pagina">
+        <p>© Rios David</p>
+    </footer>
+    <script src="accion.js"></script>
+</body>
+
+</html>

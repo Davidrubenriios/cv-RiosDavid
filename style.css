@@ -1,0 +1,109 @@
+/*ESTO ES EL ESTILO DEL HEADER */
+
+.encabezado {
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #090955;
+    padding: 5px;
+}
+
+.fotoPerfil {
+    width: 120px;
+    height: 145px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.foto-nombre {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Merienda One', cursive;
+    background: linear-gradient( #1497be, #1c2aec);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+}
+@keyframes text{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+/*ESTO ES EL ESTILO DE NUESTRA SECCION DE CONTACTOS*/
+.titulo-inf-per {
+    text-align: center;
+}
+
+.inf-contacto {
+    background-color: #273746;
+    padding-left: 20px;
+    display: none;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.icon-redes-sociales {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.contacto {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.linea-boton {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.btn-mostrar {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+li {
+    margin: 20px
+}
+
+.left-column {
+    background-color: #90A4AE;
+}
+
+.proyectos{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/*PIE DE PAGINA*/
+
+.pie-de-pagina {
+    text-align: center;
+    background-color: #090955;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.pie-de-pagina p{
+    margin: 0px;
+}
